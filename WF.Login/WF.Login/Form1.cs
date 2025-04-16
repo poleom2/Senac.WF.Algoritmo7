@@ -31,7 +31,7 @@ namespace WF.Login
 
         private void pictureBox2_Click(object sender, EventArgs e)
         {
-
+            WindowState = FormWindowState.Minimized;
         }
 
         private void textBox3_Enter(object sender, EventArgs e)
