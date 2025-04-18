@@ -58,7 +58,7 @@
             // 
             // pictureBox1
             // 
-            pictureBox1.BackColor = Color.AliceBlue;
+            pictureBox1.BackColor = Color.Black;
             pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
             pictureBox1.Location = new Point(3, 6);
             pictureBox1.Name = "pictureBox1";
@@ -194,6 +194,7 @@
             Controls.Add(panel1);
             ForeColor = Color.Black;
             FormBorderStyle = FormBorderStyle.None;
+            Icon = (Icon)resources.GetObject("$this.Icon");
             Name = "Form1";
             Opacity = 0.9D;
             Text = "Form1";

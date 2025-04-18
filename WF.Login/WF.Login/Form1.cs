@@ -21,6 +21,11 @@ namespace WF.Login
 
         private void button1_Click(object sender, EventArgs e)
         {
+            this.Hide();
+            var formPrincipal = new FormPrinsipal();
+            formPrincipal.Show();
+
+
 
         }
 
