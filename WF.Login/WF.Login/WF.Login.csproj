@@ -9,6 +9,18 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Update="FormPagto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormEntregas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormClientes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormProductos.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="Properties\Resources.Designer.cs">
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>

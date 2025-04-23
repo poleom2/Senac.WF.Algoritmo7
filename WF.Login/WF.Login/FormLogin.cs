@@ -1,10 +1,10 @@
 namespace WF.Login
 {
-    public partial class Form1 : Form
+    public partial class FormLogin : Form
     {
         private object messageBoxButtons;
 
-        public Form1()
+        public FormLogin()
         {
             InitializeComponent();
         }
